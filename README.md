@@ -57,7 +57,7 @@ The page displays total amount info, the address selected by the user for delive
 address from the same page if something wents wrong.
 
 <p align="center">
-  <img width="1366" height="714" alt="Kartik" src="https://github.com/user-attachments/assets/cd5b428a-6221-4b28-9219-924af108c163" />
+  <img width="1366" height="712" alt="Kartik (2)" src="https://github.com/user-attachments/assets/d9638667-3afb-47f2-93ce-67ff83ad4987" />
 </p>
 
 ### Payment_Successfull_Page
