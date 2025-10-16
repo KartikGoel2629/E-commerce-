@@ -57,7 +57,7 @@ The page displays total amount info, the address selected by the user for delive
 address from the same page if something wents wrong.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20confirmation%20page.png?raw=true" width="100%">
+  <img width="1366" height="714" alt="Kartik" src="https://github.com/user-attachments/assets/cd5b428a-6221-4b28-9219-924af108c163" />
 </p>
 
 ### Payment_Successfull_Page
