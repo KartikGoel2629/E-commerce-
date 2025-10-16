@@ -69,7 +69,7 @@ also provided to see the order details.
 The page displays the list of all the orders made by user, with the details like their name, card number used, date of purchase, address etc.
 
 <p align="center">
-  <img width="1366" height="421" alt="Kartik (7)" src="https://github.com/user-attachments/assets/e9f6999e-7956-4a6f-8baa-1291eacae802" />
+  <img width="1366" height="407" alt="Kartik (8)" src="https://github.com/user-attachments/assets/de777877-b6a0-479e-b85d-145fcbe04618" />
 </p>
 
 ### Login_Page
