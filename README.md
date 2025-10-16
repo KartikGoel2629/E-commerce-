@@ -15,24 +15,12 @@ code to run locally).
 - [App_Overview](#App_Overview)
   * [Products_List_Page](#Products_List_Page)
   * [Product_Details_Page](#Product_Details_Page)
-  * [Product_Edit_Page](#Product_Edit_Page)
-  * [Add_Product_Page](#Add_Product_Page)
   * [Checkout_Page](#Checkout_Page)
   * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
   * [Payment_successfull_Page](#Payment_successfull_Page)
   * [Orders_Page_For_User](#Orders_Page_For_User)
-  * [Orders_Page_For_Admin](#Orders_Page_For_Admin)
-  * [Address_Settings_Page](#Address_Settings_Page)
-  * [Address_Create_Page](#Address_Create_Page)
-  * [Address_Edit_Page](#Address_Edit_Page)
-  * [Card_Settings_Page](#Card_Settings_Page)
-  * [Card_Update_Page](#Card_Update_Page)
   * [Login_Page](#Login_Page)
   * [Register_Page](#Register_Page)
-  * [User_Account_Page](#User_Account_Page)
-  * [Update_User_Account_Page](#Update_User_Account_Page)
-  * [Delete_User_Account_Page](#Delete_User_Account_Page)
-  * [Other_Functionalities](#Other_Functionalities)
 - [Installation](#Installation)
   * [Backend](#backend)
   * [Frontend](#frontend)
@@ -53,18 +41,6 @@ This page displays all the available products on the website.
 This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. For Admins, the website provides two more functionalities such as Updating the product and secondly deleting the product.
 <p align="center">
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20details%20page.png?raw=true" width="100%">
-</p>
-
-### Product_Edit_Page
-Only admins can visit this page, the page handles the editing of the Product in terms of image, name , description, price and in stock status. 
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20edit%20page.png?raw=true" width="100%">
-</p>
-
-### Add_Product_Page
-Only admins can visit this page, the pages handles the creation of product (requires product name,  image, description, price and in stock status.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20add%20product%20page.png?raw=true" width="100%">
 </p>
 
 ### Checkout_Page
@@ -98,45 +74,6 @@ The page displays the list of all the orders made by user, with the details like
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20normal%20user.png?raw=true" width="100%">
 </p>
 
-### Orders_Page_For_Admin
-For admin user the page display the list of all users order information. The admin can change the status of product delivery status as well. A search bar is also
-provided to locate the orders with more flexibility (can search the orders by customer name, address and product name)
-
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20admin.png?raw=true" width="100%">
-</p>
-
-### Address_Settings_Page
-Here, the user can view their addresses, the page also provides creation of new address and can edit or delete it as well.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20settings%20page.png?raw=true" width="100%">
-</p>
-
-### Address_Create_Page
-Here, the user can create their new address.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20create%20page.png?raw=true" width="50%">
-</p>
-
-### Address_Edit_Page
-Here, the user can edit their address.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20update%20page.png?raw=true" width="50%">
-</p>
-
-### Card_Settings_Page
-Here, the user can view all their card details. The Page also provides updation and deletion of Card.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20settings%20page.png?raw=true" width="100%">
-</p>
-
-
-### Card_Update_Page
-Here, the user can update their card.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20update%20page.png?raw=true" width="50%">
-</p>
-
 ### Login_Page
 Requires an Account on the Website
 <p align="center">
@@ -146,24 +83,6 @@ Requires an Account on the Website
 ### Register_Page
 <p align="center">
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
-</p>
-
-### User_Account_Page
-Here, the user can see their details like their Name, Email and Admin Priviledges.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20user%20account%20page.png?raw=true" width="100%">
-</p>
-
-### Update_User_Account_Page
-Here, the user can update their account details like username, email and can also reset their password.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20account%20update%20page.png?raw=true" width="100%">
-</p>
-
-### Delete_User_Account_Page
-Here, the user can Delete their account (requires password confirmation)
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20delete%20account%20page.png?raw=true" width="100%">
 </p>
 
 ### Other_Functionalities
