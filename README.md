@@ -84,13 +84,13 @@ Requires an Account on the Website
 </p>
 
 ### Other_Functionalities
-- Used JSON web tokens to achieve the authentication checks in the website.
-- Strict Security Checking behind the scenes during the Card Creation and Payment Process.
-- JSON Token gets checked for every single request made on the website (except products list and product details page)
+-JWT Authentication: The website uses JSON Web Tokens (JWT) to verify user identity and manage authentication securely.
+-Secure Transactions: Strong backend security checks are implemented during card creation and payment processing.
+-Request Validation: Every request (except Product List and Product Details pages) is authenticated using the JWT token to ensure user safety and data protection.
 
-## Installation
+## Installation and Setup
 after downloading/cloning the repository code follow below steps:
-* (NOTE: your need to mention your own stripe secret api key and publishable key in django to run the project)
+* (Note: You must add your own Stripe Secret Key and Publishable Key in the Django settings file to enable payment functionality.)
 
 ### Backend
 * (for both linux and windows)
