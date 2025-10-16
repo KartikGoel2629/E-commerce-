@@ -1,9 +1,6 @@
 # FullStack_Ecommerce_App
 A demo full-stack e-commerce application built using React and Django REST Framework, featuring JWT-based authentication and Stripe test-mode payments.
 Users can register, browse products, add them to a cart, and simulate secure checkouts.
-<p id ="top" align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
-</p>
 
 Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a> (short note below)
 
@@ -34,13 +31,13 @@ The website also provides the flexibility to create a new stripe card if they do
 ### Products_List_Page
 This page displays all the available products on the website.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
+  <img width="1357" height="746" alt="Kartik (6)" src="https://github.com/user-attachments/assets/70173382-0296-4c4f-94cd-9ce7d4d64f67" />
 </p>
 
 ### Product_Details_Page
 This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. For Admins, the website provides two more functionalities such as Updating the product and secondly deleting the product.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20details%20page.png?raw=true" width="100%">
+  <img width="1366" height="657" alt="Kartik (5)" src="https://github.com/user-attachments/assets/73f515a9-795d-4651-bc99-077a610a349a" />
 </p>
 
 ### Checkout_Page
@@ -65,14 +62,14 @@ The Page displays the confirmation of the product purchase. Also, provides info 
 also provided to see the order details.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20successfull%20page.png?raw=true" width="100%">
+ <img width="1366" height="274" alt="Kartik (4)" src="https://github.com/user-attachments/assets/ce58b358-3f22-4db3-80be-a21578089ec8" />
 </p>
 
-### Orders_Page_For_User
+### User_Orders_Page
 The page displays the list of all the orders made by user, with the details like their name, card number used, date of purchase, address etc.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20normal%20user.png?raw=true" width="100%">
+  <img width="1366" height="408" alt="Kartik (3)" src="https://github.com/user-attachments/assets/7cdef683-4f89-4dda-b266-d5aa80f87df8" />
 </p>
 
 ### Login_Page
