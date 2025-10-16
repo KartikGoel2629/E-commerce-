@@ -24,36 +24,25 @@ Admins can manage products, orders, and user accounts through the same platform
 
 ## Working
 ### Frontend (React)
-
-The user interacts with the website through a clean React interface.
-
-When actions like login, registration, or checkout occur, React sends HTTP requests to the backend using Axios.
+- The user interacts with the website through a clean React interface.
+- When actions like login, registration, or checkout occur, React sends HTTP requests to the backend using Axios.
 
 ### Backend (Django REST Framework)
-
-The backend receives these requests and processes them.
-
-It checks authentication using JWT Tokens (every secure request must include a valid token).
-
-Django handles business logic — like validating payments, managing user data, and updating orders.
+- The backend receives these requests and processes them.
+- It checks authentication using JWT Tokens (every secure request must include a valid token).
+- Django handles business logic — like validating payments, managing user data, and updating orders.
 
 ### Database (MySQL/SQLite)
-
-All information such as users, product details, and order history is stored in the database.
+- All information such as users, product details, and order history is stored in the database.
 
 ### Payment System (Stripe API)
-
-When a user checks out, the Stripe API (in test mode) simulates the payment.
-
-Even random card details (provided they’re Stripe test numbers) will return a “Payment Successful” message.
+- When a user checks out, the Stripe API (in test mode) simulates the payment.
+- Even random card details (provided they’re Stripe test numbers) will return a “Payment Successful” message.
 
 ### Authentication Flow (JWT)
-
-When a user logs in, Django creates a JWT token.
-
-The token is sent to the frontend and stored (e.g., in local storage).
-
-Every subsequent request includes this token in the header for verification.
+- When a user logs in, Django creates a JWT token.
+- The token is sent to the frontend and stored (e.g., in local storage).
+- Every subsequent request includes this token in the header for verification.
 
 ## Features
 
