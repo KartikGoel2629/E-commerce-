@@ -1,9 +1,9 @@
 # FullStack_Ecommerce_App
-A demo full-stack e-commerce application built using React and Django REST Framework, featuring JWT-based authentication and Stripe test-mode payments.
-Users can register, browse products, add them to a cart, and simulate secure checkouts.
 
 # Table of contents
-- [About_this](#About_this)
+- [About](#About)
+- [Working](#Working)
+- [Features](#Features)
 - [App_Overview](#App_Overview)
   * [Products_List_Page](#Products_List_Page)
   * [Product_Details_Page](#Product_Details_Page)
@@ -17,10 +17,53 @@ Users can register, browse products, add them to a cart, and simulate secure che
   * [Backend](#backend)
   * [Frontend](#frontend)
 
-## About_this
-An Ecommerce website where users can purchase products by using their stripe card.  Users are allowed to visit our website and free to look any product details. User needs to create an account on our website to proceed with the payment section. If a user want they can also delete their account anytime (NOTE: With the deletion of a user account all their info like Account details, Address details, Card details will be deleted as well)
+## About
+This project is a full-stack e-commerce web application built using React (Frontend) and Django REST Framework (Backend).
+It allows users to browse products, manage their cart, make test payments via Stripe API, and view their order history.
+Admins can manage products, orders, and user accounts through the same platform
 
-The website also provides the flexibility to create a new stripe card if they do not have one, the user can also pay with other user stripe card (if they provide the right email address linked with the card and other card details like Card Number, Exp Month, Exp Year and CVC). The user can also detete their stripe card if they like (Caution: With the deletion of their stripe card their account related to that card will also be deleted as well). 
+## Working
+### Frontend (React)
+
+The user interacts with the website through a clean React interface.
+
+When actions like login, registration, or checkout occur, React sends HTTP requests to the backend using Axios.
+
+### Backend (Django REST Framework)
+
+The backend receives these requests and processes them.
+
+It checks authentication using JWT Tokens (every secure request must include a valid token).
+
+Django handles business logic — like validating payments, managing user data, and updating orders.
+
+### Database (MySQL/SQLite)
+
+All information such as users, product details, and order history is stored in the database.
+
+### Payment System (Stripe API)
+
+When a user checks out, the Stripe API (in test mode) simulates the payment.
+
+Even random card details (provided they’re Stripe test numbers) will return a “Payment Successful” message.
+
+### Authentication Flow (JWT)
+
+When a user logs in, Django creates a JWT token.
+
+The token is sent to the frontend and stored (e.g., in local storage).
+
+Every subsequent request includes this token in the header for verification.
+
+## Features
+
+- Browse and search for products
+- View detailed product pages
+- Add/remove items from cart
+- Checkout and simulate payments with Stripe
+- View past orders
+- User authentication (login/register/update account)
+- Admin access for product and order management
 
 ## App_Overview
 ### Products_List_Page
@@ -78,26 +121,11 @@ Requires an Account on the Website
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
 </p>
 
-### Other_Functionalities
--JWT Authentication: The website uses JSON Web Tokens (JWT) to verify user identity and manage authentication securely.
--Secure Transactions: Strong backend security checks are implemented during card creation and payment processing.
--Request Validation: Every request (except Product List and Product Details pages) is authenticated using the JWT token to ensure user safety and data protection.
+
 
 ## Installation and Setup
-after downloading/cloning the repository code follow below steps:
+After downloading/cloning the repository code follow below steps:
 * (Note: You must add your own Stripe Secret Key and Publishable Key in the Django settings file to enable payment functionality.)
-
-### To Run
-install `pygame` pacakge
-```
-pip install pygame
-```
-then run the 'main.py' file
-```
-python main.py
-```
-
-
 
 ### Backend Setup (Django)
 ```
