@@ -2,11 +2,6 @@
 A demo full-stack e-commerce application built using React and Django REST Framework, featuring JWT-based authentication and Stripe test-mode payments.
 Users can register, browse products, add them to a cart, and simulate secure checkouts.
 
-Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a> (short note below)
-
-(Note: The website can take upto 30 seconds (hosted on Heroku free tier services), as the project has no clients, its just for learning, please refer the source
-code to run locally).
-
 # Table of contents
 - [About_this](#About_this)
 - [App_Overview](#App_Overview)
@@ -104,8 +99,7 @@ python main.py
 
 
 
-### Backend
-* (for windows)
+### Backend Setup (Django)
 ```
 cd backend
 python -m venv env
@@ -113,15 +107,11 @@ env\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
 ```
-### Frontend
-* (for both linux and windows)
-2) Move in frontend folder through terminal and run follwing commands
 
-`npm i`
-
-`npm start`
-
-## All set ! Happy coding :)
-
-<p><a href="#top">Back to Top</a></p>
+### Frontend Setup (React)
+```
+cd frontend
+npm install
+npm start
+```
 
