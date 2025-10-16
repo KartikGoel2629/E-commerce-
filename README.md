@@ -112,11 +112,11 @@ New users can make an account on the website.
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
 </p>
 
-## Installation and Setup
+## Installation_and_Setup
 After downloading/cloning the repository code follow below steps:
 * (Note: You must add your own Stripe Secret Key and Publishable Key in the Django settings file to enable payment functionality.)
 
-### Backend Setup (Django)
+### Backend_Setup_(Django)
 ```
 cd backend
 python -m venv env
@@ -125,13 +125,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-### Frontend Setup (React)
+### Frontend_Setup_(React)
 ```
 cd frontend
 npm install
 npm start
 ```
 
-### Stripe Card details
+### Stripe_Card_details
 - Card Number: 4242 4242 4242 4242
 - CVC and Expiry date can be any random number
