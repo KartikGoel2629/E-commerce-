@@ -15,7 +15,7 @@ code to run locally).
   * [Checkout_Page](#Checkout_Page)
   * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
   * [Payment_successfull_Page](#Payment_successfull_Page)
-  * [Orders_Page_For_User](#Orders_Page_For_User)
+  * [User_Orders_Page](#User_Orders_Page)
   * [Login_Page](#Login_Page)
   * [Register_Page](#Register_Page)
 - [Installation](#Installation)
@@ -69,7 +69,7 @@ also provided to see the order details.
 The page displays the list of all the orders made by user, with the details like their name, card number used, date of purchase, address etc.
 
 <p align="center">
-  <img width="1366" height="408" alt="Kartik (3)" src="https://github.com/user-attachments/assets/7cdef683-4f89-4dda-b266-d5aa80f87df8" />
+  <img width="1366" height="421" alt="Kartik (7)" src="https://github.com/user-attachments/assets/e9f6999e-7956-4a6f-8baa-1291eacae802" />
 </p>
 
 ### Login_Page
