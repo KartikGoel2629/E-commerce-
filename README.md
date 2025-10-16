@@ -48,7 +48,8 @@ This page displays the info of the product which user has selected for the purch
 option. The user can also save their card for future payments. The user can also select or edit their address from the page.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20checkout%20page.png?raw=true" width="100%">
+  <img src=<img width="1366" height="768" alt="ecommerce checkout page png (1158×634) (1)" src="https://github.com/user-attachments/assets/1ccd743b-c443-4a34-9943-a427f9bad9de" />
+ width="100%">
 </p>
 
 ### Payment_Confirmation_Page
