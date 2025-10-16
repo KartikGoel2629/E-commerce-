@@ -13,14 +13,16 @@
   * [User_Orders_Page](#User_Orders_Page)
   * [Login_Page](#Login_Page)
   * [Register_Page](#Register_Page)
-- [Installation](#Installation)
-  * [Backend](#backend)
-  * [Frontend](#frontend)
+- [Installation_and_Setup](#Installation_and_Setup)
+  * [Backend_Setup_(Django)](#Backend_Setup_(Django))
+  * [Frontend_Setup_(React)](#Frontend_Setup(React))
+  * [Stripe_Card_details](#Stripe_Card_details)
 
 ## About
 This project is a full-stack e-commerce web application built using React (Frontend) and Django REST Framework (Backend).
 It allows users to browse products, manage their cart, make test payments via Stripe API, and view their order history.
-Admins can manage products, orders, and user accounts through the same platform
+The application uses JWT (JSON Web Tokens) for user authentication, ensuring that all sensitive actions (like managing orders, payments, or user data) are protected with secure, token-based verification.
+Users can register, log in, update their profiles, and view their order history through a dedicated dashboard.
 
 ## Working
 ### Frontend (React)
@@ -29,7 +31,7 @@ Admins can manage products, orders, and user accounts through the same platform
 
 ### Backend (Django REST Framework)
 - The backend receives these requests and processes them.
-- It checks authentication using JWT Tokens (every secure request must include a valid token).
+- It checks authentication using JWT Tokens.
 - Django handles business logic — like validating payments, managing user data, and updating orders.
 
 ### Database (MySQL/SQLite)
@@ -52,7 +54,6 @@ Admins can manage products, orders, and user accounts through the same platform
 - Checkout and simulate payments with Stripe
 - View past orders
 - User authentication (login/register/update account)
-- Admin access for product and order management
 
 ## App_Overview
 ### Products_List_Page
@@ -62,9 +63,9 @@ This page displays all the available products on the website.
 </p>
 
 ### Product_Details_Page
-This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. For Admins, the website provides two more functionalities such as Updating the product and secondly deleting the product.
+This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. 
 <p align="center">
-  <img width="1366" height="657" alt="Kartik (5)" src="https://github.com/user-attachments/assets/73f515a9-795d-4651-bc99-077a610a349a" />
+ <img width="1366" height="585" alt="Kartik (5)" src="https://github.com/user-attachments/assets/f6cb4b7a-be31-4dab-a162-39ab99721330" />
 </p>
 
 ### Checkout_Page
@@ -106,11 +107,10 @@ Requires an Account on the Website
 </p>
 
 ### Register_Page
+New users can make an account on the website.
 <p align="center">
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
 </p>
-
-
 
 ## Installation and Setup
 After downloading/cloning the repository code follow below steps:
@@ -132,3 +132,6 @@ npm install
 npm start
 ```
 
+### Stripe Card details
+- Card Number: 4242 4242 4242 4242
+- CVC and Expiry date can be any random number
