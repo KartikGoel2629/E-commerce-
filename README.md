@@ -92,18 +92,27 @@ Requires an Account on the Website
 after downloading/cloning the repository code follow below steps:
 * (Note: You must add your own Stripe Secret Key and Publishable Key in the Django settings file to enable payment functionality.)
 
+### To Run
+install `pygame` pacakge
+```
+pip install pygame
+```
+then run the 'main.py' file
+```
+python main.py
+```
+
+
+
 ### Backend
-* (for both linux and windows)
-1) Move in backend folder through terminal and run following commands,
-
-`python3 -m venv env` (for windows --> `python -m venv env`) 
-
-`source env/bin/activate` (for windows --> `env\scripts\activate`)
-
-`pip install -r requirements.txt` (same for both)
-
-`python manage.py runserver` (same for both)
-
+* (for windows)
+```
+cd backend
+python -m venv env
+env\Scripts\activate
+pip install -r requirements.txt
+python manage.py runserver
+```
 ### Frontend
 * (for both linux and windows)
 2) Move in frontend folder through terminal and run follwing commands
